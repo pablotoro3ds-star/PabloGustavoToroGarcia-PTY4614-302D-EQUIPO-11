@@ -1,0 +1,37 @@
+CAPTURAS DEL SISTEMA — APLICACIÓN
+
+Guardar aquí las capturas del sistema en producción, numeradas en este orden.
+Formato sugerido: PNG, pantalla completa, con el nombre de la empresa visible.
+
+01_login.png                  /login — pantalla de ingreso
+02_home.png                   /home — panel principal
+03_empresa_onboarding.png     /empresa/onboarding — conexión con el SII
+04_empresa_datos.png          /empresa — datos de la empresa
+05_plan_de_cuentas.png        /plan-de-cuentas — con las cuentas intocables y su candado
+06_clientes.png               /clientes — maestro de clientes
+07_proveedores.png            /proveedores — maestro de proveedores
+08_sincronizacion.png         /sincronizacion — descarga del registro de compras y ventas
+09_registro_voucher.png       /registro-voucher — comprobante en edición, con el total cuadrado
+10_registro_voucher_error.png /registro-voucher — el aviso cuando el debe y el haber no cuadran
+11_plantillas_voucher.png     /plantillas-voucher — comprobantes tipo
+12_registro_compras.png       /registro-compras
+13_registro_ventas.png        /registro-ventas
+14_libro_diario.png           /libro-diario — con el comprobante recién creado
+15_libro_mayor.png            /libro-mayor — detalle de una cuenta con sus saldos
+16_libro_compras_ventas.png   /libro-compras-ventas
+17_estado_resultado.png       /estado-resultado
+18_balance_clasificado.png    /balance-clasificado
+19_balance_general.png        /balance-general — balance de 8 columnas
+20_cierre.png                 /cierre — renta líquida imponible y corrección monetaria
+21_formulario_22.png          /formulario-22
+
+OPCIONALES, SI AYUDAN A LA EVALUACIÓN
+22_ci_github_actions.png      Pipeline en GitHub Actions, con las pruebas en verde
+23_cloud_run.png              Servicios desplegados en Google Cloud Run
+24_pull_request.png           Un Pull Request con su revisión y sus pruebas aprobadas
+
+RECOMENDACIONES
+- Usar siempre la misma empresa de prueba, para que el recorrido se entienda como uno solo.
+- Que las capturas 09, 14 y 15 muestren el MISMO comprobante: así se ve que el dato
+  ingresado una vez aparece en todos los libros.
+- Ocultar o reemplazar datos sensibles reales (RUT y razón social de clientes).

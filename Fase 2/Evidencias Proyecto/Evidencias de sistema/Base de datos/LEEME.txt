@@ -1,0 +1,29 @@
+EVIDENCIAS DE BASE DE DATOS
+
+CONTENIDO
+- modelo-de-datos-kuentas.md
+  Documento del modelo verificado contra el código (commit fd9438b): 46 modelos,
+  479 columnas, 4 diagramas de entidades, inventario de modelos, aislamiento
+  multiempresa, las migraciones y las decisiones de diseño. Los diagramas están
+  en formato Mermaid y GitHub los renderiza automáticamente.
+
+- modelo-nucleo.png
+  Diagrama del núcleo contable: empresa, plan de cuentas, comprobante y sus
+  líneas, períodos, clientes, proveedores, tipos de documento y centros de costo.
+
+- 01_datos_vouchers_y_lineas.png
+  Consulta sobre la base de desarrollo. Muestra los comprobantes registrados con
+  su empresa, y el detalle de líneas de uno de ellos: 100.000 de neto más 19.000
+  de IVA contra 119.000 a proveedores. Evidencia la partida doble a nivel de datos.
+
+- 02_conteo_filas_y_migraciones.png
+  Conteo de filas por tabla (vouchers, voucher_lineas, cuentas, companies) e
+  inicio del listado de migraciones.
+
+- 03_migraciones_completo.png
+  Listado de migraciones de la 10 a la 34, cada una asociada a su spec.
+
+NOTA SOBRE EL NÚMERO DE MIGRACIONES
+Las capturas muestran 34 migraciones con fecha, más 0_init, tomadas desde la rama
+de trabajo local. El documento del modelo cuenta 36 sobre la rama principal: la
+diferencia está en las migraciones que aún no se fusionan entre una rama y otra.

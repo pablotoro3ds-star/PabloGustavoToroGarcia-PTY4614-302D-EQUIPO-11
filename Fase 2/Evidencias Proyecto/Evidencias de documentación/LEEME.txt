@@ -1,0 +1,11 @@
+EVIDENCIAS DE DOCUMENTACIÓN
+
+Incluidos en esta carpeta:
+- Roadmap_Implementacion_Kuentas.pdf   Estado del proyecto por fases y módulos.
+- acta-reunion-2026-09-30.md           Levantamiento de requerimientos con el contador.
+- bitacora-marcha-blanca.md            Registro de las pruebas del usuario real.
+
+Por agregar antes de la entrega:
+- Manual de usuario (en elaboración).
+- Export de las especificaciones de docs/specs que se quieran evidenciar.
+- ARCHITECTURE.md actualizado (hoy está desfasado respecto del código).
